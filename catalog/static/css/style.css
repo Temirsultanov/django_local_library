@@ -1,0 +1,42 @@
+.sidebar-nav{
+    margin-top: 20px;
+    padding: 0;
+    list-style: none;
+}
+.links{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.link-renew{
+    color: #fc3;
+    text-align: center;
+    line-height: 47px;
+    color: white;
+    font-size: 18px;
+    background-color: #333;
+    width: 165px;
+    height: 47px;
+    border-radius: 15px;
+    display: block;
+    border: 2px solid #333;
+    transition: 0.3s ease;
+    margin-top: 15px;
+}
+.link-renew:hover{
+    background-color: white;
+    color: #333;
+    text-decoration: none;
+}
+
+.borrowed-list {
+    margin-top: 40px;
+    list-style: none;
+    padding: 0;
+}
+.borrowed-list li{
+      margin-bottom: 20px;
+      padding-bottom: 20px;
+      border-bottom :1px solid #ccc;
+      font-size: 25px;
+}
