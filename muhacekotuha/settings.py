@@ -24,7 +24,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECRET_KEY = '&#r*t)is=*e95#hqe$*ih$f9fi5147#-!17y01u_5auy*sbr9y'
 SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', '&#r*t)is=*e95#hqe$*ih$f9fi5147#-!17y01u_5auy*sbr9y')
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = os.getenv('DJANGO_DEBUG')
+DEBUG = os.getenv('DJANGO_DEBUG', '') != False
 ALLOWED_HOSTS = ['guarded-tor-40210.herokuapp.com', '127.0.0.1:8000']
 
 
