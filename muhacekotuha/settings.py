@@ -26,7 +26,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', '&#r*t)is=*e95#hqe$*ih$f9fi5147
 # SECURITY WARNING: don't run with debug turned on in production!
 # DEBUG = True
 DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['guarded-tor-40210.herokuapp.com']
 
 
 # Application definition
